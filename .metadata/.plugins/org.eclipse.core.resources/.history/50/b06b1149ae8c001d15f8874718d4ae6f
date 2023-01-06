@@ -1,0 +1,26 @@
+package outputs;
+
+import java.util.Scanner;
+
+public class Exam1 {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("dddd");
+		
+		System.out.println("ddddd");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("입력:");
+		
+		String inputData = sc.next();
+		
+		System.out.println("입력받은데이터:"+ inputData);
+		
+		
+	}
+	
+
+	
+}

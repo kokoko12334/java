@@ -1,0 +1,14 @@
+package outputs;
+
+public class Exam3 {
+	public static void main(String[] args) {
+		
+		//숫자형
+		byte a = 1 ;
+		short b = 111;
+		int c = 1111;
+		long d = 123333L ;   
+		System.out.printf("a:%d, b:%d, c:%d, d:%d", a,b,c,d);
+		
+	}
+}

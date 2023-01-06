@@ -1,0 +1,12 @@
+package outputs;
+
+public class Exam3 {
+	public static void main(String[] args) {
+		
+		
+		int i = (int)1233333333333333333;
+		String i2 = "d3";
+		System.out.println(i);
+		System.out.println(i2);
+	}
+}

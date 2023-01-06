@@ -1,0 +1,10 @@
+package outputs;
+
+public class Quiz {
+	public static void main(String[] args) {
+		
+		System.out.print("이름\t"+"나이\t"+"전화번호\t\t"+"회비\t");
+		
+		
+	}
+}

@@ -1,0 +1,12 @@
+package outputs;
+
+public class Exam2 {
+	//ctrl+space  맨 위의 것
+	public static void main(String[] args) {
+		
+		 System.out.println("hellow world");
+		 System.out.println("hellow \nworld");
+		 System.out.println("1234\\123");
+		
+	}
+}
