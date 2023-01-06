@@ -3,7 +3,7 @@ package variables;
 public class Exam1 {
 	public static void main(String[] args) {
 		// totalScore 처럼 단어두개면 두번째는 대문자로 
-		//숫자형 뒤로갈수록 더 높은 숫자 할당 가능   바이트가 많은곳에서 적은 곳으로 가면 데이터손실이 날 수 있음
+		//숫자형 뒤로갈수록 더 높은 숫자 할당 가능   바이트가 많은곳에서 적은 곳으로 가면 데이터손실이 날 수 있음(캐스팅을 해주어야함), 작은 곳에서 큰곳은 문제없음.
 		//정수
 		byte a = 1 ;        //1 바이트
 		short b = 111;      //2바이트
@@ -34,8 +34,6 @@ public class Exam1 {
 		System.out.printf("a5: %s, a6: %s", a5,a6);
 		
 		
-		
-		
-		
+	
 	}
 }
