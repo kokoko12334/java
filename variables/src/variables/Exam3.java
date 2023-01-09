@@ -1,5 +1,7 @@
 package variables;
 
+import java.util.Scanner;
+
 public class Exam3 {
 	public static void main(String[] args) {
 		int age = 5;
@@ -11,7 +13,6 @@ public class Exam3 {
 		
 		
 		
-				
 		
 	}	
 }
