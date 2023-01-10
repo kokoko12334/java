@@ -1,5 +1,6 @@
 package inputs;
 
+
 public class Exam5 {
 public static void main(String[] args) {
 	
@@ -21,6 +22,11 @@ public static void main(String[] args) {
 		System.out.println("숫자만 가능: " + e);
 	}
 	
+	
+	
+	
+	
+		
 	
 	
 	}	
