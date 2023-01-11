@@ -18,5 +18,9 @@ public static void main(String[] args) {
 	System.out.println(r);         //True          False 면 다음 if 실행
 	
 
+	
 }
+
 }
+
+
