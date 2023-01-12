@@ -28,7 +28,7 @@ public class Exam1 {
 		
 		
 		System.out.println("he \n llow \t world"); // 개행문자
-		sc.close();  // scanner(system.in)을 하면 닫아줌
+		
 		
 		
 		//참고로 해당 코드에서  alt+ctrl 방향키아래 하면 해당코드복사본을 아래로 붙혀넣음

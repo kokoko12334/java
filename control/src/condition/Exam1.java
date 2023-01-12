@@ -14,26 +14,13 @@ public static void main(String[] args) {
 		
 		if(data > 10) {
 			System.out.println("10초과");
-		}else {System.out.println("10이하");}
-	
+		}else {
+			System.out.println("10이하");
+		}
+
 		
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
+		
 	}
 }
