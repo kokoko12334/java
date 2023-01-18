@@ -4,6 +4,7 @@ import java.util.Stack;
 
 public class Stk {
 	public static void main(String[] args) {
+		//stack클래스보다는 ArrayDeque를 쓰는 것을 지향한다고 함
 		//스택 객체생성,  <>는 데이터타입    벡터로 구현됨, 벡터는 arraylist와 비슷한것
 		Stack<Integer> stack = new Stack<>();
 		

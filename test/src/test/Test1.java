@@ -8,7 +8,7 @@ public class Test1 {
 		
 		ArrayList<Integer> arraylist = new ArrayList<>();
 //		LinkedList linkedlist = new LinkedList<>();
-//		Vector vector = new Vector<>();
+//		
 		Stack stack = new Stack<>();
 //		Queue queue = new LinkedList<>();
 //		Deque deque = new LinkedList<>();
