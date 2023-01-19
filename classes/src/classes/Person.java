@@ -15,12 +15,30 @@ public class Person {
 		this.name = name;
 	}
 	
-	public void printName() {
+	public int printName() {
 		System.out.println(this.name);
-		
+		return 1;
 	}
 	
 	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person me = new Person();
+		Person you = new Person("you");
+		me.printName();
+		int a = you.printName();
+		
+		System.out.println(args);
+		System.out.println(me.name);
+		System.out.println(me.age);
+		System.out.println(me.birthday);
+		System.out.println(a);
 	
+		
+
+		
+		
+		
+	}
 	
 }
