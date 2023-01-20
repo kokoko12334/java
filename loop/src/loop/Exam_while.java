@@ -1,47 +1,60 @@
 package loop;
 
 import java.util.Scanner;
-
+import java.util.Random;
 public class Exam_while {
 	public static void main(String[] args) {
 		
 		
 		Scanner sc = new Scanner(System.in);
-		int order ;
-		String id = "None";   // 먼저정의하면 해당 변수의 주소값지정
-		int passwd = 0;
+		
 		boolean enter = true;
+		Random ran_num = new Random();
+		int best = 101;
 		while(enter) {
-			System.out.println("1. 회원가입");
-			System.out.println("2. 로그인");
-			System.out.println("3. 나가기");
+			System.out.println("\n== Up & Down Game ==");
+			System.out.println("1. Game Start");
+			System.out.println("2. Game Score");
+			System.out.println("3. Game Exit");
 			
-			order = sc.nextInt();
+			int order = sc.nextInt();
 			
 			if(order == 1) {
-				System.out.print("저장할 아이디 입력: ");
-				id = sc.next();
-				System.out.println(id);
-				System.out.print("저장할 비밀번호 입력");
-				passwd = sc.nextInt();
-			}
-			else if(order ==2) {
-				System.out.print("아이디 입력: ");
-				String id_input = sc.next();
-				System.out.print("비밀번호 입력: ");
-				int passwd_input = sc.nextInt();
-				if (id.equals(id_input) && passwd == passwd_input) {
-					System.out.println("인증 성공 !!!");
-				}else {System.out.println("인증 실패!!!");}
-			}
-			else {enter = false;}
+				int cnt = 1;
+				int goal = ran_num.nextInt(100)+1;
+				
+				while(true) {
+				System.out.println("\n<< Player Turn >>");	
+				System.out.print("Input Number: ");
+				int input_num = sc.nextInt();
+				if (input_num == goal) {
+					System.out.println("플레이어가 정답을 맞췄습니다.  정답: " + goal);
+					System.out.println("시도횟수: " + cnt);
+					
+					if(best>cnt) {best = cnt;}
+					break;
+					}else if( input_num > goal) {
+						System.out.println("Down!!");
+						cnt += 1;
+						}else {
+							System.out.println("UP!!");
+							cnt += 1;
+						}}
+				
+				
+				
+				
+			}else if(order ==2) {
+				System.out.println("가장 적은 시도 횟수: " + best);
 			
+		}else {
+			enter = false;
 		}
-		
 		
 		
 		
 		
 	}
 
+}
 }
