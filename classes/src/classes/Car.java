@@ -4,11 +4,13 @@ public class Car {
 	private String modelName;   //인스턴스필드(인스턴스화하면 생성->힙영역)
 	private int modelYear;
 	public static int class_filed = 1111;    //클래스필드(객체생성안해도 클래스만 생성하면 메모리에 올라감->메소드영역)
-	private int price;
+	private int price = 1000;   //명시적 초기화
 	
 	
+	static {class_filed = 1;};  //클래스변수 초기화 블록, 인스턴스변수 는 앞에  static을 빼주면 인스턴스변수 초기화 블록이 됨.
 	
-	Car(String modelName, int modelYear){     //생성자
+	
+	Car(String modelName, int modelYear){     //생성자 초기화
 		this.modelName = modelName;
 		this.modelYear = modelYear;
 		
@@ -42,6 +44,7 @@ public static void main(String[] args) {
 		
 		System.out.println(Car.classMethod()); //클래스메소드
 		System.out.println(mycar2.price); 
+		
 		
 		
 	}

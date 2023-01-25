@@ -28,7 +28,7 @@ public class Person {
 		me.printName();
 		int a = you.printName();
 		
-		System.out.println(args);
+		
 		System.out.println(me.name);
 		System.out.println(me.age);
 		System.out.println(me.birthday);

@@ -3,7 +3,7 @@ package classes;
 public class Child extends Parent {
 	public int c = 30;
 	
-	void dispplay() {
+	void display() {
 //		System.out.println(a);   => private 이므로 상속이안됨
 		System.out.println(b);
 		System.out.println(c);
@@ -26,7 +26,7 @@ public class Child extends Parent {
 		
 		
 		Child test = new Child();
-		test.dispplay(); //오버라이딩됨.
+		test.display(); //오버라이딩됨.
 		
 		
 	}
