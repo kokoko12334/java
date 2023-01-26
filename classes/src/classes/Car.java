@@ -9,8 +9,8 @@ public class Car {
 	
 	static {class_filed = 1;};  //클래스변수 초기화 블록, 인스턴스변수 는 앞에  static을 빼주면 인스턴스변수 초기화 블록이 됨.
 	
-	
-	Car(String modelName, int modelYear){     //생성자 초기화
+	Car(){price = 100;}; //매개변수가 없는 생성자
+	Car(String modelName, int modelYear){     //생성자 초기화(입력)
 		this.modelName = modelName;
 		this.modelYear = modelYear;
 		
