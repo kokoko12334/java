@@ -47,6 +47,29 @@ public class Exam01 {
 		
 		
 		
+		//데이터 완전 삭제
+		list.clear();
+		System.out.println(list);
+		
+		
+		intList.remove(0);
+		strList.remove("123");
+		System.out.println(intList);
+		System.out.println(strList);  //문자열리스트에서는 ""로 해당 요소로 삭제 가능
+		
+		
+		//데이터 삽입
+		intList.add(1);
+		intList.add(2);
+		intList.add(3);
+		intList.add(4);
+		intList.add(1,5);
+		System.out.println(intList);
+		
+		
+		
+		
+		
 		
 		
 		
