@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 public class queee {
 public static void main(String[] args) {
 	//큐,덱은 LinkedList로 구현 할 수도 있음.
-			ArrayDeque queue = new ArrayDeque<>();
+			ArrayDeque<Integer> queue = new ArrayDeque<>();
 			//추가
 			queue.add(3);
 			queue.add(2);

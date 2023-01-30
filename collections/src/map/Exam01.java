@@ -1,6 +1,7 @@
 package map;
 
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class Exam01 {
 
@@ -14,7 +15,24 @@ public class Exam01 {
 			
 			System.out.println(hm.get(0));
 			System.out.println(hm.get(1));
+			
+			
+			
+			// key val 값 확인
+			System.out.println("key값: "+hm.keySet());
+			System.out.println("val값: "+hm.values());
+			
+			
+			
+			for(String e: hm.values()) {
+				System.out.println(e);
+			}
+			
+			
+			
+			
 		}
+		
 		
 		
 		
