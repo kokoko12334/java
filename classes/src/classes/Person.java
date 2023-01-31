@@ -6,6 +6,7 @@ public class Person {
 	protected int age = 3;   //같은 패키지안에서만+ 파생클래스
 	String birthday = "3/3"; //같은패키지안에서만
 	private int weight = 30;//해당 클래스에서만
+	public static int class_filed = 1111; 
 	public Person() {
 	}   
 	
@@ -18,6 +19,10 @@ public class Person {
 	public int printName() {
 		System.out.println(this.name);
 		return 1;
+	}
+	
+	protected void testprint() {
+		System.out.println("성공");
 	}
 	
 	

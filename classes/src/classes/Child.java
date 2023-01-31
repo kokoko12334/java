@@ -14,10 +14,6 @@ public class Child extends Parent {
 	
 	
 	
-	
-	
-	
-	
 //실행구간	
 	public static void main(String[] args) {
 		
@@ -28,6 +24,11 @@ public class Child extends Parent {
 		Child test = new Child();
 		test.display(); //오버라이딩됨.
 		
+
+
+		Parent t1 = new Child(); //부모지정<-자식클래스가능
+		
+		t1.display();
 		
 	}
 	
